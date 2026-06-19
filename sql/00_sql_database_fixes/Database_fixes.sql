@@ -32,6 +32,20 @@ ALTER COLUMN order_estimated_delivery_date TYPE TIMESTAMP
 USING order_estimated_delivery_date::timestamp;
 
 -- ==========================================
+-- REVIEWS TABLE DATATYPE FIXES
+-- ==========================================
+
+ALTER TABLE reviews
+ALTER COLUMN review_creation_date
+TYPE TIMESTAMP
+USING review_creation_date::timestamp;
+
+ALTER TABLE reviews
+ALTER COLUMN review_answer_timestamp
+TYPE TIMESTAMP
+USING review_answer_timestamp::timestamp;
+
+-- ==========================================
 -- VALIDATION
 -- ==========================================
 
