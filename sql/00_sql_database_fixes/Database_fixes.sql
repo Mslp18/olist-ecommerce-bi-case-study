@@ -61,3 +61,12 @@ ORDER BY ordinal_position;
 -- order_delivered_carrier_date  -> timestamp
 -- order_delivered_customer_date -> timestamp
 -- order_estimated_delivery_date -> timestamp
+
+-- ==========================================
+-- ORDER ITEMS TABLE DATATYPE FIXES
+-- ==========================================
+
+ALTER TABLE order_items
+ALTER COLUMN shipping_limit_date
+TYPE TIMESTAMP
+USING shipping_limit_date::timestamp;
