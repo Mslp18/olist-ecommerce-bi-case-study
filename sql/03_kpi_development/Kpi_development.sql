@@ -24,16 +24,17 @@ FROM customers;
 
 -- Result: 96,096
 
-
--- KPI 4 Average Order Value
-
+-- KPI 4 Average Order Value 
 SELECT ROUND(
-       AVG(payment_value)::numeric,
+       (
+           SUM(payment_value) /
+           COUNT(DISTINCT order_id)
+       )::numeric,
        2
 ) AS average_order_value
 FROM payments;
 
--- Result: 154.10
+-- Result: 160.99
 
 
 -- KPI 5 Average Review Score
