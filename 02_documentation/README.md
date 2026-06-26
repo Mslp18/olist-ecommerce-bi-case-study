@@ -6,7 +6,7 @@ This folder contains the complete documentation for the **Olist E-Commerce End-t
 
 ### Main Project Documentation
 
-* **00_End_to_End_Business_Intelligence_Case_Study_Olist.pdf** – Complete project documentation.
+* **00_End_to_End_Business_Intelligence_Case_Study_Olist.pdf** – Complete project documentation(PPT- PDF File).
 * **01_Project_Charter.pdf** – Project objectives, scope, and success criteria.
 * **02_Business_Understanding.pdf** – Business context, objectives, and analytical approach.
 * **03_Stakeholders_KPIs.pdf** – Stakeholder analysis and key business metrics.
