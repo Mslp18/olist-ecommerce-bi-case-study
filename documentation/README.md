@@ -34,8 +34,8 @@ Contains detailed documentation for each dataset table, including:
 
 Includes:
 
-* Database Understanding
-* Database Schema
+* Data Relationships & Schema Understanding
+* ER Diagram & Database Schema
 
 ## Recommended Reading Order
 
