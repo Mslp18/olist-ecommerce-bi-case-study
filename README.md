@@ -155,30 +155,20 @@ olist-ecommerce-bi-case-study
 ├── 02_documentation
 │   ├── 00_End_to_End_Business_Intelligence_Case_Study_Olist.pdf
 │   ├── 01_Business_Documentation
-│   │   ├── Business Documentation PDFs
-│   │   └── README.md
-│   │
-│   ├── 02_Data_Dictionary
-│   │   ├── Table Documentation PDFs
-│   │   └── README.md
-│   │
-│   ├── 03_Database_Design
-│   │   ├── Database Documentation PDFs
-│   │   └── README.md
-│   │
-│   ├── 04_Python
-│   │   ├── Python Documentation PDFs
-│   │   └── README.md
-│   │
-│   ├── 05_SQL
-│   │   ├── SQL Scripts
-│   │   ├── SQL Documentation PDFs
-│   │   └── README.md
-│   │
-│   ├── 06_Power_BI
-│   │   ├── Dashboard Documentation PDFs
-│   │   └── README.md
-│   │
+│   ├── Business Documentation PDFs
+│   └── README.md
+│   
+├── 03_Python
+│   ├── Python Documentation PDFs
+│   └── README.md
+│ 
+├── 04_SQL
+│    ├── SQL Scripts
+│    ├── SQL Documentation PDFs
+│    └── README.md
+│ 
+├── 05_Power_BI
+│   ├── Dashboard Documentation PDFs
 │   └── README.md
 │
 ├── LICENSE
@@ -355,68 +345,3 @@ The dataset includes information related to:
 
 The data was extensively validated, documented, and transformed before being used for SQL analysis and dashboard development.
 
----
-
-# Project Highlights
-
-- Designed and documented a complete end-to-end Business Intelligence solution using a real-world e-commerce dataset.
-- Performed data cleaning, preprocessing, and feature engineering using Python.
-- Validated data quality through referential integrity and consistency checks.
-- Developed business-focused SQL queries to analyze customer behavior, sales performance, operational efficiency, and customer satisfaction.
-- Designed an interactive Power BI dashboard with KPI tracking, DAX measures, and business-driven visualizations.
-- Produced comprehensive technical and business documentation covering every phase of the project.
-- Maintained a structured GitHub repository following professional documentation and version control practices.
-
----
-
-# Learning Outcomes
-
-This project provided hands-on experience across the complete Business Intelligence workflow, including:
-
-- Business Problem Analysis
-- Data Cleaning & Preparation
-- Exploratory Data Analysis
-- Relational Database Design
-- Advanced SQL
-- KPI Development
-- Data Modeling
-- DAX
-- Dashboard Design
-- Business Storytelling
-- Technical Documentation
-- Git & GitHub
-
----
-
-# Future Enhancements
-
-Potential improvements for future iterations include:
-
-- Customer Segmentation using RFM Analysis
-- Customer Lifetime Value (CLV) Analysis
-- Sales Forecasting
-- Churn Prediction
-- Automated ETL Pipeline
-- Incremental Data Refresh
-- Interactive Web Dashboard Deployment
-
----
-
-# Contact
-
-**Pravallika Manepalli**
-
-**Email**  
-pravallika.analytics@gmail.com
-
-**LinkedIn**  
-https://www.linkedin.com/in/pravallikamanepalli/
-
-**GitHub**  
-https://github.com/Mslp18
-
----
-
-# License
-
-This project is licensed under the MIT License. See the `LICENSE` file for additional information.
